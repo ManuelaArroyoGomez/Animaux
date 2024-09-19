@@ -4,82 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            background: rgb(252, 244, 232);;
-            text-align: center;
-        }
-        .title {
-            color: palevioletred;
-        }
-        a[href="https://www.instagram.com/ilikeanimals.likeyou?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="] {
-            color: green;
-        }
-        div p {
-            color: black; 
-        }
-        section div:nth-child(1){
-            top:50px;
-        }
-        section div:nth-child(2){
-            background: white;
-            width: 75%;
-            margin: 0 auto;
-        }
-        section div h2 {
-            position: sticky;
-            top: 0;
-        }
-        h2 {
-            background: palevioletred;
-            color: white;
-            width: 1000px;
-            height: 50px;
-            padding: 10px;
-            box-sizing: border-box;
-            border: 3px solid white; 
-            top:50px;
-            margin: 0 auto;
-        }
-        ul:hover {
-            color: palevioletred;
-        }
-        div p:nth-child(4) {
-            color: green;
-        }
-        ::placeholder {
-            color: palevioletred;
-        }
-        button {
-            background: palevioletred;
-        }
-        .container {
-            position: relative;
-            display: grid;
-            width: 1000px;
-            height: 500px;
-            background: white;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            top: 20px;
-            left: 180px;
-        }
-        .item {
-            background: palevioletred;
-        }
-        .container .item:nth-child(1)
-        {
-            grid-column: 1 / 2;
-            grid-row: 1 / 2;
-        }
-        .container .item:nth-child(2)
-        {
-            grid-column: 2 / 3;
-            grid-row: 2 / 3;
-        }
-
-    </style>
 </head>
+<style>
+    body {
+        background: rgb(252, 244, 232);;
+        text-align: center;
+    }
+    .title {
+        color: palevioletred;
+    }
+    a[href="https://www.instagram.com/ilikeanimals.likeyou?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="] {
+        color: green;
+    }
+    div p {
+        color: black; 
+    }
+    section div:nth-child(1){
+        top:50px;
+    }
+    section div:nth-child(2){
+        background: white;
+        width: 75%;
+        margin: 0 auto;
+    }
+    section div h2 {
+        position: sticky;
+        top: 0;
+    }
+    h2 {
+        background: palevioletred;
+        color: white;
+        width: 1000px;
+        height: 50px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 3px solid white; 
+        top:50px;
+        margin: 0 auto;
+    }
+    ul:hover {
+        color: palevioletred;
+    }
+    div p:nth-child(4) {
+        color: green;
+    }
+    ::placeholder {
+        color: palevioletred;
+    }
+    button {
+        background: palevioletred;
+    }
+    .container {
+        display: grid;
+        background: white;
+        width: 1000%;
+        max-width: 500px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 250px;
+        padding: 20px;
+        grid-gap: 10px;
+    .imagen
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
 <body>
     <div class="title">
         <h1>Animaux mignons et aimants</h1>
@@ -107,8 +98,12 @@
     </form>
     <a href="https://www.instagram.com/ilikeanimals.likeyou?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Aller sur le lien</a>
     <div class="container">
-        <div class="item"><img src="Imagenes/dog5.jpg" alt="Chien 1" width="89%"></div>
-        <div class="item"><img src="Imagenes/dog3.jpg" alt="Chien 2" width="83%"></div>
+        <div class="item"><img src="Imagenes/dog7.jpg" alt="Chien 1" class="imagen"></div>
+        <div class="item"><img src="Imagenes/dog8.jpg" alt="Chien 2" class="imagen"></div>
+        <div class="item"><img src="Imagenes/dog9.jpg" alt="Chien 3" class="imagen"></div>
+        <div class="item"><img src="Imagenes/dog10.jpg" alt="Chien 4" class="imagen"></div>
+        <div class="item"><img src="Imagenes/dog14.jpg" alt="Chien 5" class="imagen"></div>
+        <div class="item"><img src="Imagenes/dog12.jpg" alt="Chien 6" class="imagen"></div>
     </div>
     <section>
         <div>
@@ -124,5 +119,13 @@
         <input type="text" placeholder="...">
         <button>Cliquer</button>
     </form>
+    <div class="container">
+        <div class="item"><img src="Imagenes/cat1.jpg" alt="Chat 1" class="imagen"></div>
+        <div class="item"><img src="Imagenes/cat2.jpg" alt="Chat 2" class="imagen"></div>
+        <div class="item"><img src="Imagenes/cat7.jpg" alt="Chat 3" class="imagen"></div>
+        <div class="item"><img src="Imagenes/cat4.jpg" alt="Chat 4" class="imagen"></div>
+        <div class="item"><img src="Imagenes/cat5.JPG" alt="Chat 5" class="imagen"></div>
+        <div class="item"><img src="Imagenes/cat6.jpg" alt="Chat 6" class="imagen"></div>
+    </div>
 </body>
 </html>

@@ -18,6 +18,9 @@
         div p {
             color: black; 
         }
+        section div:nth-child(1){
+            top:50px;
+        }
         section div:nth-child(2){
             background: white;
             width: 75%;
@@ -31,7 +34,7 @@
             padding: 10px;
             box-sizing: border-box;
             border: 3px solid white; 
-            top:30px;
+            top:50px;
             margin: 0 auto;
         }
         ul:hover {
@@ -56,7 +59,6 @@
             grid-template-rows: 1fr 1fr;
             top: 20px;
             left: 180px;
-            
         }
         .item {
             background: palevioletred;
@@ -102,7 +104,20 @@
     <div class="container">
         <div class="item"><img src="Imagenes/dog5.jpg" alt="Chien 1" width="89%"></div>
         <div class="item"><img src="Imagenes/dog3.jpg" alt="Chien 2" width="83%"></div>
-
     </div>
+    <section>
+        <div>
+            <img src="Imagenes/cat3.jpg" alt="Chat" width="40%">
+         </div>
+        <div>
+            <h2>Chats</h2>
+            <p>Les chats sont très doux et élégant</p>
+            <p>¿Qu'est-ce que tu aimes le plus chez eux?</p>
+        </div>
+    </section>
+    <form action=""></form>
+        <input type="text" placeholder="...">
+        <button>Cliquer</button>
+    </form>
 </body>
 </html>

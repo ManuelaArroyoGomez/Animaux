@@ -5,6 +5,9 @@ body {
 .title {
     color: palevioletred;
 }
+nav {
+    text-align: initial;
+}
 a[href="https://www.instagram.com/ilikeanimals.likeyou?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="] {
     color: green;
 }

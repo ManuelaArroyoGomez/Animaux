@@ -62,7 +62,11 @@ div p:nth-child(4) {
 ::placeholder {
     color: palevioletred;
 }
+form {
+    background: white;
+}
 button {
+    
     background: palevioletred;
 }
 .container {

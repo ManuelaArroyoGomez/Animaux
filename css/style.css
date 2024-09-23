@@ -5,8 +5,9 @@ body {
 .title {
     color: palevioletred;
 }
-nav {
+.first-nav {
     text-align: initial;
+    list-style: none;
 }
 .contact-us:hover {
     color: palevioletred;

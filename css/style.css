@@ -1,3 +1,8 @@
+/* Variables */
+:root {
+    --primary-color: palevioletred;
+    --secundary-color: white; 
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +16,7 @@ body {
     text-align: center;
 }
 .title {
-    color: palevioletred;
+    color: var(--primary-color);
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -27,24 +32,24 @@ body {
     display: inline-block  
 }
 .first-nav a{
-    color: white;
+    color: var(--secundary-color);
     padding: 1rem;
     border-radius: 0.3rem;
     text-decoration: none;
-    background-color: palevioletred;
+    background-color: var(--primary-color);
     font-size: 1.6rem;
 }
 .first-nav a:hover {
     color: greenyellow;
 }
 .first-nav a:active {
-    color: palevioletred;
+    color: var(--primary-color);
 }
 .imag {
     width: 35rem;
     height: 40rem;
     border-radius: 20px;
-    border: 1rem ridge palevioletred;
+    border: 1rem ridge var(--primary-color);
     overflow: hidden;
     margin: 0 auto;
 }
@@ -53,13 +58,13 @@ section div h2 {
     font-size: 2.4rem;
 }
 h2 {
-    background: palevioletred;
-    color: white;
+    background: var(--primary-color);
+    color: var(--secundary-color);
     width: 100%;
     height: 5rem;
     padding: 1rem;
     box-sizing: border-box;
-    border: 0.3rem solid white; 
+    border: 0.3rem solid var(--secundary-color); 
     top:5rem;
     margin: 1rem 0;
 }
@@ -71,7 +76,7 @@ section div:nth-child(1) {
     top:5rem;
 }
 section div:nth-child(2) {
-    background: white;
+    background: var(--secundary-color);
     width: 100%;
     height: 20rem;
     margin: 0 auto;
@@ -80,18 +85,18 @@ div p:nth-child(4) {
     color: green;
 }
 ::placeholder {
-    color: palevioletred;
+    color: var(--primary-color);
 }
 form {
-    background: white;
+    background: var(--secundary-color);
 }
 button {
     
-    background: palevioletred;
+    background: var(--primary-color);
 }
 .container {
     display: grid;
-    background: white;
+    background: var(--secundary-color);
     width: 1000%;
     max-width: 50rem;
     margin: 5rem auto;
